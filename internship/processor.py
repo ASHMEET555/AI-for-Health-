@@ -25,7 +25,7 @@ class SignalProcessor:
         if len(self.values) == 0:
             return self.timestamps, np.array([])
 
-        arr = np.array(self.values)
+        arr = np.array(self.values, dtype=np.float32)
         mean = np.mean(arr)
         std = np.std(arr)
 
@@ -38,28 +38,32 @@ class SignalProcessor:
 
     def smooth(self, window_size: int = 5) -> Tuple[List[str], np.ndarray]:
         if len(self.values) < window_size:
-            return self.timestamps, np.array(self.values)
+            return self.timestamps, np.array(self.values, dtype=np.float32)
 
-        kernel = np.ones(window_size) / window_size
-        arrval = np.array(self.values)
+        kernel = np.ones(window_size, dtype=np.float32) / window_size
+        arrval = np.array(self.values, dtype=np.float32)
         smoothed = np.convolve(arrval, kernel, mode='same')
 
         return self.timestamps, smoothed
 
     def detect_outliers(self, threshold: float = 3.0) -> List[int]:
-        arr = np.array(self.values)
+        if len(self.values) == 0:
+            return []
+        
+        arr = np.array(self.values, dtype=np.float32)
         mean = np.mean(arr)
         std = np.std(arr)
 
         outliers = []
-        for i, val in enumerate(arr):
-            if std != 0 and abs((val - mean) / std) > threshold:
-                outliers.append(i)
+        if std != 0:
+            for i, val in enumerate(arr):
+                if abs((val - mean) / std) > threshold:
+                    outliers.append(i)
 
         return outliers
 
     def get_statistics(self) -> Dict[str, float]:
-        arr = np.array(self.values)
+        arr = np.array(self.values, dtype=np.float32)
         if len(arr) == 0:
             return {
                 'mean': 0,
@@ -103,7 +107,7 @@ class SignalProcessor:
             return 1.0
 
     def get_raw_data(self) -> Tuple[List[str], np.ndarray]:
-        return self.timestamps, np.array(self.values)
+        return self.timestamps, np.array(self.values, dtype=np.float32)
 
 
 class EventProcessor:

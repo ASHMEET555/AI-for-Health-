@@ -23,12 +23,12 @@ class PatientData:
 
             data = parse_file(str(file_path))
 
-            if 'event' in signal_name:
-                processor = EventProcessor(data['events'])
+            if 'event' in signal_name or 'sleep' in signal_name or 'profil' in signal_name:
+                processor = EventProcessor(data.get('events', []))
                 self.events[signal_name] = {
-                    'raw': data['events'],
+                    'raw': data.get('events', []),
                     'processor': processor,
-                    'metadata': data['metadata']
+                    'metadata': data.get('metadata', {})
                 }
             else:
                 processor = SignalProcessor(data['data'], data['metadata'])
