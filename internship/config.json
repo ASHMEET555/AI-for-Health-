@@ -1,0 +1,33 @@
+{
+  "data_directory": "Data",
+  "output_directory": "Dataset",
+  "visualization_directory": "Visualizations",
+  "analysis_settings": {
+    "sample_rate_conversion": true,
+    "smoothing_window": 5,
+    "outlier_threshold": 3.0,
+    "total_sleep_hours": 8.0,
+    "generate_reports": true,
+    "generate_visualizations": true
+  },
+  "signal_types": [
+    "flow",
+    "spo2",
+    "thorac"
+  ],
+  "event_types": [
+    "flow_events",
+    "sleep_profile"
+  ],
+  "export_formats": [
+    "json",
+    "csv",
+    "html"
+  ],
+  "ahi_thresholds": {
+    "normal": 5,
+    "mild": 15,
+    "moderate": 30,
+    "severe": 100
+  }
+}
