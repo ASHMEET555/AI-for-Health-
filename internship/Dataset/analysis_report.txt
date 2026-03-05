@@ -1,0 +1,121 @@
+AI FOR HEALTH - SLEEP APNEA ANALYSIS REPORT
+============================================================
+
+Total Patients Analyzed: 5
+Patient IDs: AP01, AP02, AP03, AP04, AP05
+
+
+PATIENT: AP01
+------------------------------------------------------------
+Available Signals: ['flow - 30-05-2024', 'sleep profile - 30-05-2024', 'spo2 - 30-05-2024', 'thorac - 30-05-2024']
+Available Events: ['flow events - 30-05-2024']
+
+  flow - 30-05-2024:
+    Data Points: 101
+    Mean: -0.87
+    Std Dev: 55.74
+  sleep profile - 30-05-2024:
+    Data Points: 0
+    Mean: 0
+    Std Dev: 0
+  spo2 - 30-05-2024:
+    Data Points: 109398
+    Mean: 94.65
+    Std Dev: 1.31
+  thorac - 30-05-2024:
+    Data Points: 101
+    Mean: 1.4
+    Std Dev: 48.45
+
+
+PATIENT: AP02
+------------------------------------------------------------
+Available Signals: ['flow  - 30.05.2024', 'sleep profile  - 30.05.2024', 'spo2  - 30.05.2024', 'thorac  - 30.05.2024']
+Available Events: ['flow events  - 30.05.2024']
+
+  flow  - 30.05.2024:
+    Data Points: 101
+    Mean: 6.43
+    Std Dev: 63.94
+  sleep profile  - 30.05.2024:
+    Data Points: 0
+    Mean: 0
+    Std Dev: 0
+  spo2  - 30.05.2024:
+    Data Points: 106209
+    Mean: 93.58
+    Std Dev: 10.61
+  thorac  - 30.05.2024:
+    Data Points: 101
+    Mean: 4.91
+    Std Dev: 153.32
+
+
+PATIENT: AP03
+------------------------------------------------------------
+Available Signals: ['flow - 29_05_2024', 'sleep profile - 29_05_2024', 'spo2 - 29_05_2024', 'thorac - 29_05_2024']
+Available Events: ['flow events - 29_05_2024']
+
+  flow - 29_05_2024:
+    Data Points: 101
+    Mean: -1.27
+    Std Dev: 7.93
+  sleep profile - 29_05_2024:
+    Data Points: 0
+    Mean: 0
+    Std Dev: 0
+  spo2 - 29_05_2024:
+    Data Points: 101825
+    Mean: 95.89
+    Std Dev: 4.25
+  thorac - 29_05_2024:
+    Data Points: 101
+    Mean: -0.69
+    Std Dev: 70.82
+
+
+PATIENT: AP04
+------------------------------------------------------------
+Available Signals: ['flow signal - 29.05.2024', 'sleep profile - 29.05.2024', 'spo2 signal - 29.05.2024', 'thorac signal - 29.05.2024']
+Available Events: ['flow events - 29.05.2024']
+
+  flow signal - 29.05.2024:
+    Data Points: 101
+    Mean: 2.79
+    Std Dev: 53.08
+  sleep profile - 29.05.2024:
+    Data Points: 0
+    Mean: 0
+    Std Dev: 0
+  spo2 signal - 29.05.2024:
+    Data Points: 116015
+    Mean: 90.63
+    Std Dev: 2.85
+  thorac signal - 29.05.2024:
+    Data Points: 101
+    Mean: 2.96
+    Std Dev: 54.26
+
+
+PATIENT: AP05
+------------------------------------------------------------
+Available Signals: ['flow nasal - 28.05.2024', 'sleep profile - 28.05.2024', 'spo2 - 28.05.2024', 'thorac movement - 28.05.2024']
+Available Events: ['flow events - 28.05.2024']
+
+  flow nasal - 28.05.2024:
+    Data Points: 101
+    Mean: -4.19
+    Std Dev: 52.18
+  sleep profile - 28.05.2024:
+    Data Points: 0
+    Mean: 0
+    Std Dev: 0
+  spo2 - 28.05.2024:
+    Data Points: 94955
+    Mean: 92.2
+    Std Dev: 17.26
+  thorac movement - 28.05.2024:
+    Data Points: 101
+    Mean: 3.12
+    Std Dev: 60.59
+

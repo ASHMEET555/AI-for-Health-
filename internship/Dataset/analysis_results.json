@@ -1,0 +1,395 @@
+{
+  "total_patients": 5,
+  "patients": {
+    "AP01": {
+      "patient_id": "AP01",
+      "oxygen_saturation": {
+        "mean": 94.65,
+        "min": 0.0,
+        "max": 99.0,
+        "std": 1.31,
+        "desaturation_events": 2662,
+        "total_points": 109398
+      },
+      "sleep_stages": {},
+      "respiratory_events": {
+        "event_types": {},
+        "total_events": 0,
+        "apnea_index": 0.0,
+        "hypopnea_index": 0.0,
+        "ahi": 0.0,
+        "severity": "Normal"
+      },
+      "thoracic_movement": {
+        "mean": 1.4,
+        "std": 48.45,
+        "activity_level": "Normal",
+        "variability": 48.45
+      },
+      "flow_signal": {
+        "mean": -0.87,
+        "std": 55.74,
+        "breathing_pattern": "Irregular"
+      }
+    },
+    "AP02": {
+      "patient_id": "AP02",
+      "oxygen_saturation": {
+        "mean": 93.58,
+        "min": 0.0,
+        "max": 127.0,
+        "std": 10.61,
+        "desaturation_events": 2248,
+        "total_points": 106209
+      },
+      "sleep_stages": {},
+      "respiratory_events": {
+        "event_types": {},
+        "total_events": 0,
+        "apnea_index": 0.0,
+        "hypopnea_index": 0.0,
+        "ahi": 0.0,
+        "severity": "Normal"
+      },
+      "thoracic_movement": {
+        "mean": 4.91,
+        "std": 153.32,
+        "activity_level": "Normal",
+        "variability": 153.32
+      },
+      "flow_signal": {
+        "mean": 6.43,
+        "std": 63.94,
+        "breathing_pattern": "Irregular"
+      }
+    },
+    "AP03": {
+      "patient_id": "AP03",
+      "oxygen_saturation": {
+        "mean": 95.89,
+        "min": 0.0,
+        "max": 127.0,
+        "std": 4.25,
+        "desaturation_events": 578,
+        "total_points": 101825
+      },
+      "sleep_stages": {},
+      "respiratory_events": {
+        "event_types": {},
+        "total_events": 0,
+        "apnea_index": 0.0,
+        "hypopnea_index": 0.0,
+        "ahi": 0.0,
+        "severity": "Normal"
+      },
+      "thoracic_movement": {
+        "mean": -0.69,
+        "std": 70.82,
+        "activity_level": "Normal",
+        "variability": 70.82
+      },
+      "flow_signal": {
+        "mean": -1.27,
+        "std": 7.93,
+        "breathing_pattern": "Regular"
+      }
+    },
+    "AP04": {
+      "patient_id": "AP04",
+      "oxygen_saturation": {
+        "mean": 90.63,
+        "min": 0.0,
+        "max": 127.0,
+        "std": 2.85,
+        "desaturation_events": 1259,
+        "total_points": 116015
+      },
+      "sleep_stages": {},
+      "respiratory_events": {
+        "event_types": {},
+        "total_events": 0,
+        "apnea_index": 0.0,
+        "hypopnea_index": 0.0,
+        "ahi": 0.0,
+        "severity": "Normal"
+      },
+      "thoracic_movement": {
+        "mean": 2.96,
+        "std": 54.26,
+        "activity_level": "Normal",
+        "variability": 54.26
+      },
+      "flow_signal": {
+        "mean": 2.79,
+        "std": 53.08,
+        "breathing_pattern": "Irregular"
+      }
+    },
+    "AP05": {
+      "patient_id": "AP05",
+      "oxygen_saturation": {
+        "mean": 92.2,
+        "min": 0.0,
+        "max": 127.0,
+        "std": 17.26,
+        "desaturation_events": 3156,
+        "total_points": 94955
+      },
+      "sleep_stages": {},
+      "respiratory_events": {
+        "event_types": {},
+        "total_events": 0,
+        "apnea_index": 0.0,
+        "hypopnea_index": 0.0,
+        "ahi": 0.0,
+        "severity": "Normal"
+      },
+      "thoracic_movement": {
+        "mean": 3.12,
+        "std": 60.59,
+        "activity_level": "Normal",
+        "variability": 60.59
+      },
+      "flow_signal": {
+        "mean": -4.19,
+        "std": 52.18,
+        "breathing_pattern": "Irregular"
+      }
+    }
+  },
+  "quality_metrics": {
+    "AP01": 100.0,
+    "AP02": 100.0,
+    "AP03": 100.0,
+    "AP04": 100.0,
+    "AP05": 100.0
+  },
+  "validation": {
+    "AP01": {
+      "patient_id": "AP01",
+      "signals": {
+        "flow - 30-05-2024": {
+          "has_data": true,
+          "sufficient_samples": false,
+          "data_points": 101,
+          "mean": -0.87,
+          "std": 55.74
+        },
+        "sleep profile - 30-05-2024": {
+          "has_data": false,
+          "sufficient_samples": false,
+          "data_points": 0,
+          "mean": 0,
+          "std": 0
+        },
+        "spo2 - 30-05-2024": {
+          "has_data": true,
+          "sufficient_samples": true,
+          "data_points": 109398,
+          "mean": 94.65,
+          "std": 1.31
+        },
+        "thorac - 30-05-2024": {
+          "has_data": true,
+          "sufficient_samples": false,
+          "data_points": 101,
+          "mean": 1.4,
+          "std": 48.45
+        }
+      },
+      "events": {
+        "flow events - 30-05-2024": {
+          "has_events": false,
+          "event_count": 0
+        }
+      }
+    },
+    "AP02": {
+      "patient_id": "AP02",
+      "signals": {
+        "flow  - 30.05.2024": {
+          "has_data": true,
+          "sufficient_samples": false,
+          "data_points": 101,
+          "mean": 6.43,
+          "std": 63.94
+        },
+        "sleep profile  - 30.05.2024": {
+          "has_data": false,
+          "sufficient_samples": false,
+          "data_points": 0,
+          "mean": 0,
+          "std": 0
+        },
+        "spo2  - 30.05.2024": {
+          "has_data": true,
+          "sufficient_samples": true,
+          "data_points": 106209,
+          "mean": 93.58,
+          "std": 10.61
+        },
+        "thorac  - 30.05.2024": {
+          "has_data": true,
+          "sufficient_samples": false,
+          "data_points": 101,
+          "mean": 4.91,
+          "std": 153.32
+        }
+      },
+      "events": {
+        "flow events  - 30.05.2024": {
+          "has_events": false,
+          "event_count": 0
+        }
+      }
+    },
+    "AP03": {
+      "patient_id": "AP03",
+      "signals": {
+        "flow - 29_05_2024": {
+          "has_data": true,
+          "sufficient_samples": false,
+          "data_points": 101,
+          "mean": -1.27,
+          "std": 7.93
+        },
+        "sleep profile - 29_05_2024": {
+          "has_data": false,
+          "sufficient_samples": false,
+          "data_points": 0,
+          "mean": 0,
+          "std": 0
+        },
+        "spo2 - 29_05_2024": {
+          "has_data": true,
+          "sufficient_samples": true,
+          "data_points": 101825,
+          "mean": 95.89,
+          "std": 4.25
+        },
+        "thorac - 29_05_2024": {
+          "has_data": true,
+          "sufficient_samples": false,
+          "data_points": 101,
+          "mean": -0.69,
+          "std": 70.82
+        }
+      },
+      "events": {
+        "flow events - 29_05_2024": {
+          "has_events": false,
+          "event_count": 0
+        }
+      }
+    },
+    "AP04": {
+      "patient_id": "AP04",
+      "signals": {
+        "flow signal - 29.05.2024": {
+          "has_data": true,
+          "sufficient_samples": false,
+          "data_points": 101,
+          "mean": 2.79,
+          "std": 53.08
+        },
+        "sleep profile - 29.05.2024": {
+          "has_data": false,
+          "sufficient_samples": false,
+          "data_points": 0,
+          "mean": 0,
+          "std": 0
+        },
+        "spo2 signal - 29.05.2024": {
+          "has_data": true,
+          "sufficient_samples": true,
+          "data_points": 116015,
+          "mean": 90.63,
+          "std": 2.85
+        },
+        "thorac signal - 29.05.2024": {
+          "has_data": true,
+          "sufficient_samples": false,
+          "data_points": 101,
+          "mean": 2.96,
+          "std": 54.26
+        }
+      },
+      "events": {
+        "flow events - 29.05.2024": {
+          "has_events": false,
+          "event_count": 0
+        }
+      }
+    },
+    "AP05": {
+      "patient_id": "AP05",
+      "signals": {
+        "flow nasal - 28.05.2024": {
+          "has_data": true,
+          "sufficient_samples": false,
+          "data_points": 101,
+          "mean": -4.19,
+          "std": 52.18
+        },
+        "sleep profile - 28.05.2024": {
+          "has_data": false,
+          "sufficient_samples": false,
+          "data_points": 0,
+          "mean": 0,
+          "std": 0
+        },
+        "spo2 - 28.05.2024": {
+          "has_data": true,
+          "sufficient_samples": true,
+          "data_points": 94955,
+          "mean": 92.2,
+          "std": 17.26
+        },
+        "thorac movement - 28.05.2024": {
+          "has_data": true,
+          "sufficient_samples": false,
+          "data_points": 101,
+          "mean": 3.12,
+          "std": 60.59
+        }
+      },
+      "events": {
+        "flow events - 28.05.2024": {
+          "has_events": false,
+          "event_count": 0
+        }
+      }
+    }
+  },
+  "comparative": {
+    "ahi_comparison": {
+      "AP01": 0.0,
+      "AP02": 0.0,
+      "AP03": 0.0,
+      "AP04": 0.0,
+      "AP05": 0.0
+    },
+    "oxygen_comparison": {
+      "AP01": {
+        "mean": 94.65,
+        "min": 0.0
+      },
+      "AP02": {
+        "mean": 93.58,
+        "min": 0.0
+      },
+      "AP03": {
+        "mean": 95.89,
+        "min": 0.0
+      },
+      "AP04": {
+        "mean": 90.63,
+        "min": 0.0
+      },
+      "AP05": {
+        "mean": 92.2,
+        "min": 0.0
+      }
+    }
+  }
+}
